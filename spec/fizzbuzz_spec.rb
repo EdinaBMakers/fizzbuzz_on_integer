@@ -20,4 +20,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when called on a multiple of 3 and 5' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+
+  it 'returns number when called on a number not a multiple of 3 or 5' do
+    expect(1.fizzbuzz).to eq 1
+  end
 end

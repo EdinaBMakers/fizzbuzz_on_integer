@@ -6,6 +6,8 @@ class Integer
       "fizz"
     elsif self % 5 == 0
       "buzz"
+    else
+      self
     end
   end
 end
