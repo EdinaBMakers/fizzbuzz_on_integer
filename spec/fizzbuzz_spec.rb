@@ -12,4 +12,8 @@ describe 'fizzbuzz' do
   it 'returns "buzz" when called on 5' do
     expect(5.fizzbuzz).to eq 'buzz'
   end
+
+  it 'returns "buzz" when called on a multiple of 5' do
+    expect(10.fizzbuzz).to eq 'buzz'
+  end
 end
